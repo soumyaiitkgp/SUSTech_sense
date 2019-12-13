@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Dropdown menu tutorial test</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<style>
+    body {
+      background-image: url('Pic1/white.jpg');
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      align-self: center;
+      background-size: cover;
+    }
+    </style>
+<body>
+    <div class="head">
+        <ul>
+                水环境质量综合管理
+        </ul>
+    </div>
+    <div class="menu-bar">
+    <ul>
+    <li class="active"><a href="#">1.数据显示</a>
+        <div class="sub-menu-1">
+                <ul>
+                    <li><a href="Menu.html">1.1企业排放口</a></li>
+                    <li><a href="Menu2.html">1.2河流断面</a></li>
+                </ul>
+        </div>
+    </li>
+    <li><a href="#">2.预警</a></li>
+    <li><a href="#">3.污染物溯源</a></li>
+    </ul>
+    </div>
+
+    <div class="rand">
+        <ul class="aa">
+            <li>重置</li>
+            <li>模型运算设置</li>
+            <li>启动模型运算</li>
+        </ul>
+    </div>
+
+    <!--<div class="rand">
+        <ul class="aa">
+            <li>模型运算设置</li>
+        </ul>
+    </div>
+    <div class="rand">
+        <ul class="aa">
+            <li>启动模型运算</li>
+        </ul>
+    </div>--> 
+    
+<div class="chart">
+<iframe width="581" height="336" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/926782/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&timescale=10&type=line"></iframe>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.head
+{
+    background: rgba(193, 154, 107, 0.9);
+    width: auto;
+    text-align: center;
+}
+
+.head ul
+{
+display: inline-flex;
+list-style: none;
+color: rgb(0,0,0);
+padding: 15px;
+font-size: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.menu-bar
+{
+    background:rgba(193, 154, 107, 0.6);
+    width: 100%;
+    text-align: center;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu-bar ul li
+{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a 
+{ 
+    text-decoration: none;
+    color: rgb;
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: rgba(207, 52, 52, 0.7);
+    border-radius: 3px;
+}
+
+.sub-menu-1
+{
+    display: none;   
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:rgba(193, 154, 107, 0.9);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(29, 12, 129);
+    text-align: left;
+    border-radius: 0px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: rgb(0,0,0);
+}
+
+
+.center {
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+    width: auto;
+    margin-bottom: 100px;
+  }
+
+.new {
+    display: block;
+    margin-left: 135px ;
+    margin-top: -320px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.newb {
+    display: block;
+    margin-left: 216px ;
+    margin-top: -120px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.newc {
+    display: block;
+    margin-left: 320px ;
+    margin-top: -109px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.newd {
+    display: block;
+    margin-left: 395px ;
+    margin-top: -68px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.newe {
+    display: block;
+    margin-left: 460px ;
+    margin-top: -34px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.newf {
+    display: block;
+    margin-left: 475px ;
+    margin-top: 59px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.newg {
+    display: block;
+    margin-left: 260px ;
+    margin-top: -286px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.map
+
+{
+    margin-left: 580px;
+    margin-top: -128px;
+}
+
+.rand
+{   margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    background: none;
+    width: 200px;
+}
+
+
+.rand ul
+{
+ display: inline-flex;
+list-style: none;
+background: rgb(155, 146, 149,0.2);
+border-radius: 10px;
+}
+
+.rand ul li
+{
+background: rgb(155, 146, 149,0.3) ;
+border-radius: 12px;
+width: 180px;
+margin: 15px;
+padding: 10px;
+}
+
+.rand ul li:hover
+{
+ font-family:'Times New Roman', Times, serif;
+ background:rgba(193, 154, 107, 0.9);
+ border-radius: 8px;
+ padding: 10px;
+ width: 185px;
+}
+
+.chart 
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}

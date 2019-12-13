@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Dropdown menu tutorial test</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<style>
+    body {
+      background-image: url('Pic1/white.jpg');
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      align-self: center;
+      background-size: cover;
+    }
+    </style>
+<body>
+    <div class="head">
+        <ul>
+                水环境质量综合管理
+        </ul>
+    </div>
+    <div class="menu-bar">
+    <ul>
+    <li class="active"><a href="#">1.数据显示</a>
+        <div class="sub-menu-1">
+                <ul>
+                    <li><a href="Menu.html">1.1企业排放口</a></li>
+                    <li><a href="Menu2.html">1.2河流断面</a></li>
+                </ul>
+        </div>
+    </li>
+    <li><a href="#">2.预警</a></li>
+    <li><a href="#">3.污染物溯源</a></li>
+    </ul>
+    </div>
+
+    <div class="rand">
+        <ul class="aa">
+            <li>重置</li>
+            <li>模型运算设置</li>
+            <li>启动模型运算</li>
+        </ul>
+    </div>
+
+    <!--<div class="rand">
+        <ul class="aa">
+            <li>模型运算设置</li>
+        </ul>
+    </div>
+    <div class="rand">
+        <ul class="aa">
+            <li>启动模型运算</li>
+        </ul>
+    </div>--> 
+
+
+    <img src="Pic1/Mapb.jpg" width="537" height="336" class="center"/>
+    <a href="chartA.html"><img src="Pic1/Circlea.png" width="56" height="48" class="new"/></a>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML"><img src="Pic1/Circleb.png" width="36" height="36" class="newb"/></a>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML"><img src="Pic1/Circlec.png" width="42" height="42" class="newc"/></a>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML"><img src="Pic1/Circled.png" width="36" height="36" class="newd"/></a>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML"><img src="Pic1/Circlee.png" width="36" height="36" class="newe"/></a>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML"><img src="Pic1/Circlef.png" width="36" height="36" class="newf"/></a>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML"><img src="Pic1/Circleg.png" width="36" height="36" class="newg"/></a>
+    <form id="form1" runat="server">
+        <div>
+         <div class="map" style="width:580px;">
+                <script type="text/javascript" src="http://api.map.baidu.com/api?key=&amp;v=1.1&amp;services=true"></script>
+                <div style="WIDTH: 537px; HEIGHT: 336px;" id="dituContent"></div>
+                  <script src="BaiduMap.js" type="text/javascript"></script>
+                </div>
+        </div>
+        </form>
+</body>
+</html>
