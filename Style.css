@@ -74,20 +74,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li
-{
-    width:150px;
-    padding: 10px;
-    border-bottom: 1px dotted rgb(29, 12, 129);
-    text-align: left;
-    border-radius: 0px;
-}
-
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover
-{
-    color: rgb(0,0,0);
-}
-
 
 .center {
     display: block;
