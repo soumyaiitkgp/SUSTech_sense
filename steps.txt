@@ -1,0 +1,18 @@
+//since heroku do not support html hence make index.php and write following code into it:
+  <?php header( 'Location: /Menu.html'); ?> 
+
+GIT commands:
+
+1. git inti in the main directory where all the files are stored
+2. git add .
+3. git commit -m "your comment here"
+
+heroku login
+heroku apps:create your-app-name-here 
+
+4. git push heroku master
+heroku open -a customapplicationpd1
+
+
+
+https://www.youtube.com/watch?v=LaQEIem7uPk
